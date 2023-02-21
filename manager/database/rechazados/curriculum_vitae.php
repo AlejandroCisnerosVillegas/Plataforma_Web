@@ -8,7 +8,7 @@ if($id==''){
 }
 
 //conectar a mysql---------
-$conn = mysqli_connect('IP_Address', 'User', 'Pasword', 'DataBase_Name') or die("Error al conectar al servidor");
+$conn = mysqli_connect('IP_Address', 'User', 'Password', 'DataBase_Name') or die("Error al conectar al servidor");
 //---------------------------
 
 $sql="SELECT Archivo_UPRechazados, Tipo_UPRechazados, Nombre_UPRechazados FROM postulados_rechazados WHERE IDUPAceptados = $id";
