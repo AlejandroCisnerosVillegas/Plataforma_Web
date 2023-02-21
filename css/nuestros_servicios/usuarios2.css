@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.toggle .toggle-heading a i{ color:#2168bb; border-color:#2168bb;}
+
+
+body {
+  background-image: url(../../img/wallpapers/usuarios_01.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #66999;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+}
