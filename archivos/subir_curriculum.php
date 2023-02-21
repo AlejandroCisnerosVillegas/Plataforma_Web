@@ -59,7 +59,7 @@ $resultado = $mysqli->query($sql);
 
 echo'<script type="text/javascript">
             alert("Tu postulado se ha completado con exito, en breve nos pondremos en contacto contigo para darle seguimiento a tu solicitud. Si tienes alguna duda, comunicate con nosotros en alguna de nuestras redes sociales.");
-            window.location.href="javascript:history.back(2);";
+            window.location.href="javascript:history.go(-2);";
             </script>';
 
 
@@ -72,7 +72,7 @@ echo'<script type="text/javascript">
  }else{
      echo'<script type="text/javascript">
             alert("Lo sentimos, pero este usuario ya se postulo a esta vacante. Si Tienes alguna duda, por favor ponte en contacto con nosotros.");
-            window.location.href="javascript:history.back(-2);";
+            window.location.href="javascript:history.go(-2);";
             </script>';
  }
 
@@ -80,7 +80,7 @@ echo'<script type="text/javascript">
  else{
      echo'<script type="text/javascript">
             alert("Disculpa, ocurrio un problema, en breve lo solucionaremos");
-            window.location.href="javascript:history.back(-2);";
+            window.location.href="javascript:history.go(-2);";
             </script>';
  }
 ?>
