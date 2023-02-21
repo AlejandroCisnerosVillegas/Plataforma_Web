@@ -1,13 +1,13 @@
 <?php
 //Conexion con la base de datos.
-$conexion= new mysqli('localhost', 'root', '');
+$conexion= new mysqli('Ip_Address', 'User', 'Pasword');
 
 if($conexion->connect_errno){
      echo "Fallo al conectar a MySQL:(". $conexion->connect_errno.")";
 }
 else{
 
-$conexion->select_db("piviwnwi_piviweb");
+$conexion->select_db("DataBase_Name");
 
 $Correo_Usuario = $_POST['Correo_Usuario'];
 $Contrasena_Usuario = $_POST['Contrasena_Usuario'];
