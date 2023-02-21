@@ -1,0 +1,10 @@
+body {
+  background-image: url(../img/users.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #66999;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+}
