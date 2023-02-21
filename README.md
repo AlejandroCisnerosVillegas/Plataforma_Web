@@ -1,2 +1,2 @@
-# Plataforma_Web
+# Plataforma Web
 Plataforma de Vinculación Institucional
