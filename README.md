@@ -1,3 +1,3 @@
-# Plataforma Interactiva de Vinculación Institucional 
-## _PiviWeb.com te ofrece diferentes tipos de ofertas con características avanzadas que darán un impulso a tus candidaturas y búsqueda de tus vacantes._
-La creación de un sitio web permitirá a CENIDE la difusión de distintas vacantes empresariales e institucionales orientadas a la liberación de servicio social, residencias profesionales y prácticas profesionales con la finalidad que los usuarios registrados en ella tengan acceso a esta información de una manera fácil y sencilla. 
+# Plataforma Interactiva de Vinculación Institucional
+## _Área: Tesis de Grado_
+Como parte del proyecto de residencias profesionales de la carrera de Ingeniería en Sistemas Computacionales en el Instituto Tecnológico de Iztapalapa, se ha llevado a cabo el diseño e implementación de un sitio web para el Centro Nacional de Investigación y Desarrollo de Empresas S.C. (CENIDE). Esta organización se dedica a la vinculación de instituciones de enseñanza media superior y superior con el sector empresarial, con el objetivo de facilitar a los estudiantes la realización de residencias profesionales, servicio social o prácticas profesionales.
