@@ -131,7 +131,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="/" style="color:#ffffff";>
+								<a href="../../index.html" style="color:#ffffff";>
 									<p>Cerrar Sesión</p>
 								</a>
 							</li>

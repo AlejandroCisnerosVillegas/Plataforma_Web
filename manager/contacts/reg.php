@@ -42,14 +42,18 @@
 								<?php
 								 $query = $mysqli -> query ("SELECT * FROM institucion ORDER BY Nombre_Institucion ASC");
 								 while ($valores = mysqli_fetch_array($query)) {
-									 echo '<option value="'.$valores[Nombre_Institucion].'">'.$valores[Nombre_Institucion].'</option>';
-								 }
+								?>
+									<option value="<?php echo $valores['Nombre_Institucion']; ?>"><?php echo $valores['Nombre_Institucion']; ?></option>
+							    <?php
+								}
 								?>
 								<option value="No Asignado">-------Empresas-------</option>
 								<?php
 								$query = $mysqli -> query ("SELECT * FROM empresa ORDER BY Nombre_Empresa ASC");
 								while ($valores = mysqli_fetch_array($query)) {
-								echo '<option value="'.$valores[Nombre_Empresa].'">'.$valores[Nombre_Empresa].'</option>';
+								?>	
+								    <option value="<?php echo $valores['Nombre_Empresa']; ?>"><?php echo $valores['Nombre_Empresa']; ?></option>
+								<?php
 								}
 								?>
 							 </select>

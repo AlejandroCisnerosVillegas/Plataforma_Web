@@ -1,5 +1,5 @@
 <?php
-	require '../database/usuarios.php';
+    require '../database/usuarios.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -123,7 +123,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="/" style="color:#ffffff";>
+								<a href="../../index.html" style="color:#ffffff";>
 									<p>Cerrar Sesión</p>
 								</a>
 							</li>
@@ -160,7 +160,7 @@
 										</tr>
 									</thead>
 									<tbody>
-										<?php while($row = $resultado->fetch_array(MYSQLI_ASSOC)) { ?>
+									   <?php while($row = $resultado->fetch_array(MYSQLI_ASSOC)) { ?>
 											<tr>
 												<td><b><?php echo $row['Nombre_DUsuario'] ?></b></td>
 												<td><b><?php echo $row['Carrera_DUsuario'] ?></b></td>

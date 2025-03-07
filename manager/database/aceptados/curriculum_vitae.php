@@ -8,7 +8,7 @@ if($id==''){
 }
 
 //conectar a mysql---------
-$conn = mysqli_connect('Ip_Address', 'User', 'Password', 'DataBase_Name') or die("Error al conectar al servidor");
+$conn = mysqli_connect('localhost', 'root', '', 'piviwnwi_piviweb') or die("Error al conectar al servidor");
 //---------------------------
 
 $sql="SELECT Archivo_UPAceptados, Tipo_UPAceptados, Nombre_UPAceptados FROM postulados_aceptados WHERE IDUPAceptados = $id";

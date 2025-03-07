@@ -32,7 +32,9 @@
 							<?php
 							$query = $mysqli -> query ("SELECT * FROM postulados_rechazados");
 							while ($valores = mysqli_fetch_array($query)) {
-							echo '<option value="'.$valores[IDUPAceptados].'">'.$valores[Nombre_DUsuario].' - '.$valores[Titulo_UPRechazados].'</option>';
+							?>
+							<option value="<?php echo $valores['IDUPAceptados']; ?>"><?php echo $valores['Nombre_DUsuario']; ?> - <?php echo $valores['Titulo_UPRechazados']; ?></option>
+							<?php
 							}
 							?>
 						</select>
@@ -45,7 +47,9 @@
 							<?php
 							$query = $mysqli -> query ("SELECT * FROM vacante");
 							while ($valores = mysqli_fetch_array($query)) {
-							echo '<option value="'.$valores[Titulos_Vacantes].'">'.$valores[Titulos_Vacantes].'</option>';
+							?>	
+							<option value="<?php echo $valores['Titulos_Vacantes']; ?>"><?php echo $valores['Titulos_Vacantes']; ?></option>
+							<?php
 							}
 							?>
 						</select>

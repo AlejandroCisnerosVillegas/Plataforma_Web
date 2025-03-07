@@ -237,6 +237,50 @@
           </div>
         </div>
 <!--===============================================================================================-->
+    <div class="row table-responsive">
+      <table class="container" id="employee_table">
+        <thead>
+<!--===============================================================================================-->
+          <tr>
+          </tr>
+<!--===============================================================================================-->
+        </thead>
+        <tbody>
+          <?php while($row = $resultado->fetch_array(MYSQLI_ASSOC)) { ?>
+            <tr>
+<!--===============================================================================================-->
+              <td>
+                <div class="container">
+                <div class="row" data-aos="fade">
+                 <div class="col-md-12">
+                   <div class="job-post-item bg-white p-4 d-block d-md-flex align-items-center">
+                      <div class="mb-4 mb-md-0 mr-5">
+												<label for="Name" style="color:#af1111";><b><?php echo $row['Tiempo_Vacantes'] ?></b></label>
+                       <div class="job-post-item-header d-flex align-items-center">
+                         <h2 class="mr-3 text-black h4"><?php echo $row['Titulos_Vacantes'] ?></h2>
+                         <div class="badge-wrap">
+                          <span class="<?php echo $row['Color_Vacantes'] ?> text-white badge py-2 px-4"><?php echo $row['Seccion_Vacantes'] ?></span>
+                         </div>
+                       </div>
+                       <div class="job-post-item-body d-block d-md-flex">
+                         <div class="mr-3"><span class="fl-bigmug-line-portfolio23"></span> <a href="datos/datos_vacante.php?id=<?php echo $row['IDVacantes'] ?>"><?php echo $row['Emp_Inst_Vacantes'] ?></a></div>
+                         <div><span class="fl-bigmug-line-big104"></span> <span><?php echo $row['Delegacion_Vacantes'] ?>, <?php echo $row['Estado_Vacantes'] ?></span></div>
+                       </div>
+                      </div>
+                      <div class="ml-auto">
+                        <a href="datos/datos_vacante.php?id=<?php echo $row['IDVacantes'] ?>" class="btn btn-primary py-2">Aplicar</a>
+                      </div>
+                   </div>
+                 </div>
+                </div>
+                </div>
+              </td>
+            </tr>
+          <?php } ?>
+        </tbody>
+      </table>
+    </div>
+<!--===============================================================================================-->
   </div>
 </div>
 <!--===============================================================================================-->

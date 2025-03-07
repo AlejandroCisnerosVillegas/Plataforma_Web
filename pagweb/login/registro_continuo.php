@@ -90,49 +90,16 @@ function comprobarClave(){
 	<input type="hidden" name="Correo_DUsuario" value="<?php echo $Correo_Usuario;?>" id="Correo_DUsuario" />
 <!--===============================================================================================-->
 <!--===============================================================================================-->
-					<div class="wrap-input1002 form-group validate-input" data-validate = "Selecciona una ciudad o estado.">
+					<div class="wrap-input100 form-group validate-input" data-validate = "Ingresa Ciudad o Estado.">
 						<span class="label-input100"><b>Ciudad o Estado</b></span>
-						<select class="custom-select my-1 mr-sm-2" id="primary" name="Ciudad_DUsuario">
-							<option value="Aguascalientes">Aguascalientes</option>
-							 <option value="Baja_California">Baja California</option>
-							 <option value="Baja_California_Sur">Baja California Sur</option>
-							 <option value="Campeche">Campeche</option>
-							 <option value="Chiapas">Chiapas</option>
-							 <option value="Chihuahua">Chihuahua</option>
-							 <option value="Ciudad_de_Mexico">Ciudad de México</option>
-							 <option value="Coahuila">Coahuila</option>
-							 <option value="Colima">Colima</option>
-							 <option value="Durango">Durango</option>
-							 <option value="Estado_de_Mexico">Estado de México</option>
-							 <option value="Guanajuato">Guanajuato</option>
-							 <option value="Guerrero">Guerrero</option>
-							 <option value="Hidalgo">Hidalgo</option>
-							 <option value="Jalisco">Jalisco</option>
-							 <option value="Michoacan">Michoacán</option>
-							 <option value="Morelos">Morelos</option>
-							 <option value="Nayarit">Nayarit</option>
-							 <option value="Nuevo_Leon">Nuevo León</option>
-							 <option value="Oaxaca">Oaxaca</option>
-							 <option value="Puebla">Puebla</option>
-							 <option value="Queretaro">Querétaro</option>
-							 <option value="Quintana_Roo">Quintana Roo</option>
-							 <option value="San_Luis_Potosi">San Luis Potosí</option>
-							 <option value="Sinaloa">Sinaloa</option>
-							 <option value="Sonora">Sonora</option>
-							 <option value="Tabasco">Tabasco</option>
-							 <option value="Tamaulipas">Tamaulipas</option>
-							 <option value="Tlaxcala">Tlaxcala</option>
-							 <option value="Veracruz">Veracruz</option>
-							 <option value="Yucatan">Yucatán</option>
-							 <option value="Zacatecas">Zacatecas</option>
-						 </select>
+						<input type="text" class="input100"  placeholder="Ciudad o Estado" id="Ciudad_DUsuario" name="Ciudad_DUsuario" value="" required>
+						<span class="focus-input100"></span>
 					</div>
 <!--===============================================================================================-->
-<!--===============================================================================================-->
-					<div class="wrap-input1002 form-group validate-input" data-validate = "Selecciona un municipios, delegación o alcaldía.">
-						<span class="label-input100"><b>Municipios, Delegación o Alcaldía</b></span>
-						<select id="secondary" class="custom-select my-1 mr-sm-2" name="Minicipio_DUsuario">
-						</select>
+<!--===============================================================================================-->					
+					<div class="wrap-input100 form-group validate-input" data-validate = "ISelecciona un municipios, delegación o alcaldía.">
+						<span class="label-input100"><b>CMunicipios, Delegación o Alcaldía</b></span>
+						<input type="text" class="input100"  placeholder="Municipios, Delegación o Alcaldía" id="Minicipio_DUsuario" name="Minicipio_DUsuario" value="" required>
 						<span class="focus-input100"></span>
 					</div>
 <!--===============================================================================================-->
@@ -321,7 +288,7 @@ function comprobarClave(){
 <!--===============================================================================================-->
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script>
+  <script>
 	var options = {
 		Aguascalientes : ["Aguascalientes", "Asientos", "Calvillo", "Cosío", "Jesús María", "Pabellón De Arteaga", "Rincón De Romos", "San José De Gracia", "Tepezalá", "El Llano", "San Francisco De Los Romo"],
 

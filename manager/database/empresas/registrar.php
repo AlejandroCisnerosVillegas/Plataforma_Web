@@ -15,6 +15,6 @@ $Numero_Int_Empresa = $_POST['Numero_Int_Empresa'];
 $CodigoP_Empresa = $_POST['CodigoP_Empresa'];
 $Oficinas_Empresa = $_POST['Oficinas_Empresa'];
 
-$sql = "INSERT INTO empresa (IDEmpresa, Nombre_Empresa, RFC_Empresa, Giro_Empresa, Vacantes_Empresa, Medios_Empresa, Estado_Empresa, Delegacion_Empresa, Colonia_Empresa, Calle_Empresa, Numero_Ext_Empresa, Numero_Int_Empresa, CodigoP_Empresa, Oficinas_Empresa) VALUES ('', '$Nombre_Empresa', '$RFC_Empresa', '$Giro_Empresa', '$Vacantes_Empresa', '$Medios_Empresa', '$Estado_Empresa', '$Delegacion_Empresa', '$Colonia_Empresa', '$Calle_Empresa', '$Numero_Ext_Empresa', '$Numero_Int_Empresa', '$CodigoP_Empresa', '$Oficinas_Empresa')";
+$sql = "INSERT INTO `empresa`(`Nombre_Empresa`, `RFC_Empresa`, `Giro_Empresa`, `Vacantes_Empresa`, `Medios_Empresa`, `Estado_Empresa`, `Delegacion_Empresa`, `Colonia_Empresa`, `Calle_Empresa`, `Numero_Ext_Empresa`, `Numero_Int_Empresa`, `CodigoP_Empresa`, `Oficinas_Empresa`) VALUES ('$Nombre_Empresa', '$RFC_Empresa', '$Giro_Empresa', '$Vacantes_Empresa', '$Medios_Empresa', '$Estado_Empresa', '$Delegacion_Empresa', '$Colonia_Empresa', '$Calle_Empresa', '$Numero_Ext_Empresa', '$Numero_Int_Empresa', '$CodigoP_Empresa', '$Oficinas_Empresa')";
 $resultado = $mysqli->query($sql);
 ?>

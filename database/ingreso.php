@@ -1,13 +1,13 @@
 <?php
  //Conexion con la base de datos.
- $conexion= new mysqli('Ip_Address', 'User', 'Password');
+ $conexion= new mysqli('localhost', 'root', '');
 
  if($conexion->connect_errno){
       echo "Fallo al conectar a MySQL:(". $conexion->connect_errno.")";
  }
  else{
 
- $conexion->select_db("DataBase_Name");
+ $conexion->select_db("piviwnwi_piviweb");
 
  //declaramos como variables a los campos de texto del formulario.
  $nombre=$_POST["txtuser"];

@@ -18,7 +18,7 @@ $Numero_Int_Institucion = $_POST['Numero_Int_Institucion'];
 $CodigoP_Institucion = $_POST['CodigoP_Institucion'];
 $Nombre_Plantel = $_POST['Nombre_Plantel'];
 
-$sql = "INSERT INTO institucion (IDInstitucion, Nombre_Institucion, Clave_Institucion, Nivel_Institucion, Dependencia_Institucion, Turno_Institucion, Carreras_Institucion, Vacantes_Institucion, Medios_Institucion, Estado_Institucion, Delegacion_Institucion, Colonia_Institucion, Calle_Institucion, Numero_Ext_Institucion, Numero_Int_Institucion, CodigoP_Institucion, Nombre_Plantel) VALUES ('', '$Nombre_Institucion', '$Clave_Institucion', '$Nivel_Institucion', '$Dependencia_Institucion', '$Turno_Institucion', '$Carreras_Institucion', '$Vacantes_Institucion', '$Medios_Institucion',
+$sql = "INSERT INTO institucion (Nombre_Institucion, Clave_Institucion, Nivel_Institucion, Dependencia_Institucion, Turno_Institucion, Carreras_Institucion, Vacantes_Institucion, Medios_Institucion, Estado_Institucion, Delegacion_Institucion, Colonia_Institucion, Calle_Institucion, Numero_Ext_Institucion, Numero_Int_Institucion, CodigoP_Institucion, Nombre_Plantel) VALUES ('$Nombre_Institucion', '$Clave_Institucion', '$Nivel_Institucion', '$Dependencia_Institucion', '$Turno_Institucion', '$Carreras_Institucion', '$Vacantes_Institucion', '$Medios_Institucion',
 '$Estado_Institucion', '$Delegacion_Institucion', '$Colonia_Institucion', '$Calle_Institucion', '$Numero_Ext_Institucion', '$Numero_Int_Institucion', '$CodigoP_Institucion', '$Nombre_Plantel')";
 $resultado = $mysqli->query($sql);
 ?>

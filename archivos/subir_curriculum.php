@@ -49,10 +49,10 @@ if($query= $mysqli->query($consulta)){
   }
     if($subido) {
 
-$sql = "INSERT INTO archivos (id, direccion, titulo, correo, Nombre_DUsuario, Edad_DUsuario, Telefono_DUsuario, Nivel_DUsuario, Carrera_DUsuario, 
+$sql = "INSERT INTO archivos (direccion, titulo, correo, Nombre_DUsuario, Edad_DUsuario, Telefono_DUsuario, Nivel_DUsuario, Carrera_DUsuario, 
 Conocimiento_DUsuario, Ciudad_DUsuario, Minicipio_DUsuario, TVacante_DUsuario, Emp_Inst_Vacantes, Estado_Vacantes, Delegacion_Vacantes, Cargo_Vacantes, 
 Descripcion_Vacantes, Carrera_Vacantes, Conocimientos_Vacantes) 
-VALUES ('', '$uploadfile', '$archivo_titulo', '$archivo_Correo', '$Nombre_DUsuario', '$Edad_DUsuario', '$Telefono_DUsuario', '$Nivel_DUsuario', 
+VALUES ('$uploadfile', '$archivo_titulo', '$archivo_Correo', '$Nombre_DUsuario', '$Edad_DUsuario', '$Telefono_DUsuario', '$Nivel_DUsuario', 
 '$Carrera_DUsuario', '$Conocimiento_DUsuario', '$Ciudad_DUsuario', '$Minicipio_DUsuario', '$TVacante_DUsuario', '$Emp_Inst_Vacantes', 
 '$Estado_Vacantes', '$Delegacion_Vacantes', '$Cargo_Vacantes', '$Descripcion_Vacantes', '$Carrera_Vacantes', '$Conocimientos_Vacantes')";
 $resultado = $mysqli->query($sql);

@@ -1,6 +1,6 @@
 <?php
 
-	$mysqli = new mysqli('Ip_Address', 'User', 'Password', 'DataBase_Name');
+	$mysqli = new mysqli('localhost', 'root', '', 'piviwnwi_piviweb');
 	$mysqli -> set_charset("utf8");
 
 	if($mysqli->connect_error){
