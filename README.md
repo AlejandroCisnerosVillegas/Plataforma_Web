@@ -38,7 +38,7 @@ Además, el proyecto incluye la implementación de una base de datos que se enca
   <img src="./img/principal/Readme-06.png" alt="Descripción de la imagen" width="60%">
 </p>
 
-**Consulta la versión preliminar del proyecto aquí:** [https://plataforma_web.com](https://alejandrovillegas.net/projects/titling-project/index.html)
+**Consulta la versión preliminar del proyecto aquí:** [https://plataforma_web.com](https://www.alejandrovillegas.dev/projects/titling-project/index.html)
 
 # 📌 Información del Proyecto
 
@@ -50,7 +50,7 @@ Este proyecto ha sido desarrollado como parte del portafolio de soluciones tecno
 
 - **Fecha de Desarrollo**: 17 de enero de 2020
 
-- **Portafolio de Proyectos**: [www.alejandrovillegas.net](https://www.alejandrovillegas.net/)
+- **Portafolio de Proyectos**: [www.alejandrovillegas.dev](https://www.alejandrovillegas.dev)
 
 # Guía de Instalación y Configuración del Proyecto
 
